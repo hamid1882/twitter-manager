@@ -1,0 +1,13 @@
+API key = 3BluUf7lGuESYyLY4DG2h3phh
+
+API key secret = CYzhar1Frm4kQ5LyZsr845aAhirs68fsLFKXTDYZWLuxg65H7u
+
+Bearer token = AAAAAAAAAAAAAAAAAAAAAHcGhwEAAAAA4dSavNRfK0SIydVOLryC1FJbiHU%3DLRoDjOOSuahmysAsSdhUDAo6FPWRWNVCmw9bWYsiTGf3FFFze5
+
+Client ID = aFdGLVB2YkdpTmpicXRVLUF2TEg6MTpjaQ
+
+Client Secret = qA-3Phmff_qrS6wXei5y8PqXpMkEdY5W4IQBYlWvQbmUupNjRA
+
+DJANGO SECRET_KEY = f-sy(fs!*ob)vr56t5gss@nsrq0lrhdw-x-j!lxn@&+jpdfe^=
+
+Twitter Redirect URL = https://backend-twittermanager.herokuapp.com/authorization/twitter-login
