@@ -14,7 +14,7 @@ class Loginpage extends Component {
             <Input placeholder='Password' />
             <Button type="primary">Login</Button>
             OR
-            <Button type="primary">Login with Twitter</Button>
+            <Button type="primary"><a href="https://backend-tweetmanager.herokuapp.com/authorization/twitter_login/">Login with Twitter</a></Button>
           </Space>
         </Card>
       </div>
