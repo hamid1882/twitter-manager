@@ -1,7 +1,43 @@
+* {
+  margin: 0;
+}
+
+
 .Container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   overflow: none;
+  height: 100vh;
+}
+
+.UserProfile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  width: 100%;
+}
+
+.UserImage {
+  border-radius: 100%;
+}
+
+.Name {
+  margin-bottom: 0em;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.Username {
+  color: rgba(0,0,0,0.5);
+  font-weight: 500;
+}
+
+.Tweetbox {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: flex-end;
+  align-items: flex-end;
+  max-height: 30em;
 }
