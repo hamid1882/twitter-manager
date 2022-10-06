@@ -12,13 +12,22 @@ export class Homepage extends Component {
       screenName: "",
       userName: "",
       profilePic: "",
+      allUsers: [],
     }
   }
 
 
-  // GetUserDetails = () => {
+  GetUserDetails = () => {
+    let queryId = Number(1)
+    let url = `https://backend-tweetmanager.herokuapp.com/api/users/`
+    axios.get(url, { headers: { 'Content-Type': 'application/json' } }).then((data) => {
+      console.log(data)
+    }).error((err) => {
+      console.log(err)
+    })
+  }
 
-  // }
+
   render() {
     const { TextArea } = Input;
     return (
@@ -32,6 +41,8 @@ export class Homepage extends Component {
                 width={100}
               />
             </div>
+            {/* onclick to get user details from the server */}
+            <h2 onClick={this.GetUserDetails}>Get User Details</h2>
             <div>
               <h4 className={Classes.Name}>Hamid Hussain</h4>
               <span className={Classes.Username}>Hamid67</span>
