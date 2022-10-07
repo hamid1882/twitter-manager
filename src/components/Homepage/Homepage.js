@@ -19,7 +19,7 @@ export class Homepage extends Component {
 
   GetUserDetails = () => {
     let queryId = Number(1)
-    let url = `https://backend-tweetmanager.herokuapp.com/api/users/`
+    let url = `https:backend-supertwit.herokuapp.com/api/users/`
     axios.get(url, { headers: { 'Content-Type': 'application/json' } }).then((data) => {
       console.log(data)
     }).error((err) => {
@@ -42,7 +42,7 @@ export class Homepage extends Component {
               />
             </div>
             {/* onclick to get user details from the server */}
-            <h2 onClick={this.GetUserDetails}>Get User Details</h2>
+            {/* <h2 onClick={this.GetUserDetails}>Get User Details</h2> */}
             <div>
               <h4 className={Classes.Name}>Hamid Hussain</h4>
               <span className={Classes.Username}>Hamid67</span>

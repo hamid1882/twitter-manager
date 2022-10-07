@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Input, Space, Divider, Card, Spin } from 'antd';
+import { Button, Input, Space, Divider, Card } from 'antd';
 import "antd/dist/antd.css";
 import Classes from "./Loginpage.module.css";
 
@@ -14,7 +14,7 @@ class Loginpage extends Component {
             <Input placeholder='Password' />
             <Button type="primary">Login</Button>
             OR
-            <Button type="primary"><a href="https://backend-tweetmanager.herokuapp.com/authorization/twitter_login/">Login with Twitter</a></Button>
+            <Button type="primary"><a href="https:backend-supertwit.herokuapp.com/authorization/twitter_login/">Login with Twitter</a></Button>
           </Space>
         </Card>
       </div>
